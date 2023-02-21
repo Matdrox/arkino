@@ -57,9 +57,11 @@ function App() {
                     Mail us while we're building
                 </h2>
 
-                <button className='h-14 w-40 rounded-md px-4 py-2 font-bold bg-black text-white hover:bg-white hover:text-black duration-150'>
-                    Discover
-                </button>
+                <a href='mailto:cananau@kth.se'>
+                    <button className='h-14 w-40 rounded-md px-4 py-2 font-bold bg-black text-white hover:bg-white hover:text-black duration-150'>
+                        Discover
+                    </button>
+                </a>
             </div>
 
             <div className='mt-24'>
