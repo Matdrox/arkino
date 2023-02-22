@@ -5,12 +5,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@900&display=swap');
 
 body {
-  margin: 0;
-  /* font-family: 'Poppins', sans-serif; */
-  /* font-family: 'Righteous', cursive; */
-  font-family: 'Inter', sans-serif;
-  /* background-color: #FF9D9D; */
-  background-color: #FFF3CF;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Righteous', cursive; */
+    /* font-family: 'Inter', sans-serif; */
+    /* font-family: 'Encode Sans', sans-serif; */
+    /* background-color: #FF9D9D; */
+    background-color: #fff3cf;
+}
+
+@layer utilities {
+    .animation-delay-2000 {
+        animation-delay: 2s;
+    }
+    .animation-delay-4000 {
+        animation-delay: 4s;
+    }
 }
