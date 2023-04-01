@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/arkino/static/css/main.01c58ec7.css",
-    "main.js": "/arkino/static/js/main.3c1f5d17.js",
+    "main.css": "/arkino/static/css/main.c091550d.css",
+    "main.js": "/arkino/static/js/main.f9f69dbf.js",
+    "static/media/imgArkinoFront.jpg": "/arkino/static/media/imgArkinoFront.f53b3354765531891f31.jpg",
+    "static/media/imgArkinoFit.jpg": "/arkino/static/media/imgArkinoFit.e84f6809f04f867fb6ef.jpg",
     "static/media/background1.png": "/arkino/static/media/background1.a83daeb78e26fef3336d.png",
+    "static/media/imgArkinoSide.jpg": "/arkino/static/media/imgArkinoSide.75dce71b0ded00820896.jpg",
     "static/media/photobooth.png": "/arkino/static/media/photobooth.a8af7139c5f24aa750c7.png",
     "static/media/construction.png": "/arkino/static/media/construction.2caa9d8b0bfde4dc59ad.png",
     "index.html": "/arkino/index.html",
-    "main.01c58ec7.css.map": "/arkino/static/css/main.01c58ec7.css.map",
-    "main.3c1f5d17.js.map": "/arkino/static/js/main.3c1f5d17.js.map"
+    "main.c091550d.css.map": "/arkino/static/css/main.c091550d.css.map",
+    "main.f9f69dbf.js.map": "/arkino/static/js/main.f9f69dbf.js.map"
   },
   "entrypoints": [
-    "static/css/main.01c58ec7.css",
-    "static/js/main.3c1f5d17.js"
+    "static/css/main.c091550d.css",
+    "static/js/main.f9f69dbf.js"
   ]
 }
