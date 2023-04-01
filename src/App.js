@@ -6,6 +6,8 @@ import imgArkinoSide from './images/imgArkinoSide.jpg';
 import imgArkinoFit from './images/imgArkinoFit.jpg';
 
 import { useState } from 'react';
+// Import reaact icons, arrow
+import { FaArrowRight } from 'react-icons/fa';
 
 function App() {
     const [isFocused, setIsFocused] = useState(false);
@@ -17,7 +19,7 @@ function App() {
         } else {
             setIsFilled(false);
         }
-    }
+    };
 
     return (
         <div>
@@ -114,37 +116,48 @@ function App() {
                     </h2>
                     <div className='w-screen h-full flex flex-row gap-2 justify-center items-center'>
                         <div className='w-1/4 px-6 py-80 bg-slate-700 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-70 border border-b-0 border-r-0 border-gray-500'>
-                            <p>PLAN TEXT [TBD]</p>
+                            <p>PLAN TEXT TBD</p>
                         </div>
                         <div className='w-1/4 px-6 py-80 bg-slate-700 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-70 border border-b-0 border-l-0 border-r-0 border-gray-500'>
-                            <p>PLAN TEXT [TBD]</p>
+                            <p>PLAN TEXT TBD</p>
                         </div>
                         <div className='w-1/4 px-6 py-80 bg-slate-700 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-70 border border-b-0 border-l-0 border-gray-500'>
-                            <p>PLAN TEXT [TBD]</p>
+                            <p>PLAN TEXT TBD</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className='w-screen h-screen bg-slate-900 flex justify-center'>
+            <div className='w-screen h-[60vh] bg-slate-900 flex gap-5 justify-center'>
+                <p className='text-xl p-3'>Hey, get in touch with us!</p>
                 <div className='relative w-1/4'>
                     <input
-                        className='w-full bg-slate-700 rounded-lg border border-gray-300 focus:border-blue-500 focus:outline-none py-2 px-4 block appearance-none leading-normal'
+                        className={`w-full h-12 bg-slate-700 bg-opacity-70 rounded-lg border focus:border-purple-500/80 focus:outline-none py-3 px-4 block appearance-none leading-normal transition ${
+                            isFilled
+                                ? 'border-purple-500/40'
+                                : 'border-slate-400'
+                        }`}
                         type='text'
                         onFocus={() => setIsFocused(true)}
                         onBlur={() => setIsFocused(false)}
+                        onChange={handleInput}
                     />
                     <label
-                        className={`transition-all duration-300 ease-in-out absolute px-2 pointer-events-none ${
-                            isFocused
-                                ? '-top-4 text-blue-500 text-xs'
-                                : 'top-2 text-gray-500 text-sm'
+                        className={`transition-all duration-300 ease-in-out absolute px-3 pointer-events-none ${
+                            isFocused || isFilled
+                                ? '-top-5 text-purple-500/80 text-sm'
+                                : 'top-[0.9rem] text-slate-400 text-sm'
                         }`}
                         htmlFor='email'
                     >
                         Email Address
                     </label>
                 </div>
+                <button className='w-20 h-12 bg-purple-500/80 hover:bg-orange-500 shadow-2xl shadow-purple-500/80 hover:shadow-orange-500 rounded-lg transition duration-300'>
+                    <div className='w-full h-full flex justify-center items-center'>
+                        <FaArrowRight />
+                    </div>
+                </button>
             </div>
 
             <div>
@@ -155,6 +168,8 @@ function App() {
                 <div className='absolute h-[400px] w-[400px] -left-20 top-[120rem] bg-gradient-to-br from-cyan-400 to-purple-500 opacity-50 rounded-full filter blur-3xl animate-blob animation-delay-3000'></div>
                 <div className='absolute h-[700px] w-[700px] -right-24 top-[150rem] bg-gradient-to-br from-orange-300 to-purple-500 opacity-50 rounded-full filter blur-3xl animate-blob animation-delay-4000'></div>
                 <div className='absolute h-[600px] w-[600px] left-0 top-[180rem] bg-gradient-to-br from-green-300 to-red-400 opacity-50 rounded-full filter blur-3xl animate-blob'></div>
+                <div className='absolute h-[400px] w-[400px] right-96 top-[200rem] bg-gradient-to-br from-yellow-400 to-red-500 opacity-50 rounded-full filter blur-3xl animate-blob animation-delay-2000'></div>
+                <div className='absolute overflow-visible h-[700px] w-[700px] left-52 top-[230rem] bg-gradient-to-br from-cyan-800 to-purple-300 opacity-50 rounded-full filter blur-3xl animate-blob animation-delay-2000'></div>
             </div>
         </div>
     );
