@@ -130,7 +130,7 @@ function App() {
 
             <div className='w-screen h-[60vh] bg-slate-900 flex gap-5 justify-center'>
                 <p className='text-xl p-3'>Hey, get in touch with us!</p>
-                <div className='relative w-1/4 z-10'>
+                <div className='relative w-1/4 z-10 opacity-80'>
                     <input
                         className={`w-full h-12 bg-slate-700 bg-opacity-70 rounded-lg border focus:border-purple-500/80 focus:outline-none py-3 px-4 block appearance-none leading-normal transition ${
                             isFilled
