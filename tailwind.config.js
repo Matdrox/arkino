@@ -7,6 +7,9 @@ module.exports = {
                 main: '#08121C',
                 font: '#01050E',
             },
+            fontFamily: {
+                Encode: ['Encode Sans', 'sans-serif'],
+            },
             animation: {
                 blob: 'blob 10s ease-in-out infinite',
             },
