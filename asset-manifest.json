@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/arkino/static/css/main.a288efdb.css",
-    "main.js": "/arkino/static/js/main.124a4570.js",
+    "main.css": "/arkino/static/css/main.38bbdcfd.css",
+    "main.js": "/arkino/static/js/main.ef5954d7.js",
     "static/media/imgArkinoFront.jpg": "/arkino/static/media/imgArkinoFront.f53b3354765531891f31.jpg",
     "static/media/imgArkinoFit.jpg": "/arkino/static/media/imgArkinoFit.e84f6809f04f867fb6ef.jpg",
     "static/media/background1.png": "/arkino/static/media/background1.a83daeb78e26fef3336d.png",
@@ -9,11 +9,11 @@
     "static/media/photobooth.png": "/arkino/static/media/photobooth.a8af7139c5f24aa750c7.png",
     "static/media/construction.png": "/arkino/static/media/construction.2caa9d8b0bfde4dc59ad.png",
     "index.html": "/arkino/index.html",
-    "main.a288efdb.css.map": "/arkino/static/css/main.a288efdb.css.map",
-    "main.124a4570.js.map": "/arkino/static/js/main.124a4570.js.map"
+    "main.38bbdcfd.css.map": "/arkino/static/css/main.38bbdcfd.css.map",
+    "main.ef5954d7.js.map": "/arkino/static/js/main.ef5954d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.a288efdb.css",
-    "static/js/main.124a4570.js"
+    "static/css/main.38bbdcfd.css",
+    "static/js/main.ef5954d7.js"
   ]
 }
